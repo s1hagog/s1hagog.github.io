@@ -1,0 +1,51 @@
+/* Start Global */
+
+/* :root {
+    font-size: calc(0.5em + 1vw);
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}  */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #eee;
+}
+
+body{
+    width: 0;
+    height: 0;
+    background: url('../img/sitebg.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color: #eee
+}
+
+p{
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+img{
+    width: 100%;
+}
+
+/* End Global */
+
