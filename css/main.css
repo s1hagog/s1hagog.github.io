@@ -104,6 +104,11 @@ img{
 
 }
 
+
+.has-margin-right {
+    margin-right: 5rem;
+}
+
 /* End Reusable */
 
 /* Start Header */
@@ -336,3 +341,30 @@ li {
 /* End Services */
 
 /* Start Portfolio */
+
+.portfolio-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.portfolio-item:last-child {
+    margin-bottom: 0;
+}
+
+.portfolio-img{
+    flex: 1;
+}
+
+.portfolio-desc {
+    flex: 1;
+}
+
+.portfolio-desc h6 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    opacity: 0.3;
+}
+/* End Portfolio */
