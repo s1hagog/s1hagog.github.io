@@ -134,7 +134,7 @@ li {
 }
 
 .open .bar.start {
-    transform: rotate(4450deg) translateX(0.8rem);
+    transform: rotate(-450deg) translateX(0.8rem);
 }
 
 .bar.end {
@@ -144,8 +144,17 @@ li {
 }
 
 .open .bar.end {
-    transform: rotate(4450deg) translateX(-0.8rem);
+    transform: rotate(-450deg) translateX(-0.8rem);
 }
 
+.landing-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    z-index: 1200;
+}
 /* End Header */
 
