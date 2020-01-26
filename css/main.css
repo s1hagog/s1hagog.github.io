@@ -6,6 +6,8 @@
 
     --font-logo-heading: 5rem;
     --font-logo-subheading: 1.5rem;
+    --font-about-heading: 6rem;
+    --font-about-subheading: 2rem;
 }
 
 *,
@@ -321,7 +323,7 @@ video{
 }
 
 .about-heading h1{
-    font-size: 10rem;
+    font-size: 6rem;
     opacity: .3;
 }
 
