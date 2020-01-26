@@ -323,12 +323,12 @@ video{
 }
 
 .about-heading h1{
-    font-size: 6rem;
+    font-size: var(--font-about-heading);
     opacity: .3;
 }
 
 .about-heading h6{
-    font-size: 2rem;
+    font-size: var(--font-about-subheading);
     font-weight: 300;
 }
 
