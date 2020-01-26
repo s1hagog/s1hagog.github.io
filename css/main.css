@@ -1,8 +1,11 @@
 /* Start Global */
 
-/* :root {
+:root {
     font-size: calc(0.5em + 1vw);
     box-sizing: border-box;
+
+    --font-logo-heading: 5rem;
+    --font-logo-subheading: 1.5rem;
 }
 
 *,
@@ -11,17 +14,16 @@
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-}  */
+} 
 
 
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 html{
-    font-size: 10px;
     font-family: 'Roboto', sans-serif;
     color: #eee;
 }
@@ -43,7 +45,7 @@ a{
 }
 
 p{
-    font-size: 1.8rem;
+    font-size: 1rem;
     font-weight: 300;
 }
 
@@ -221,11 +223,12 @@ li {
     transform: translate(-50%, -50%);
     width: 100%;
     text-align: center;
+    opacity: 0.5;
     z-index: 1200;
 }
 
 .landing-text h1{
-    font-size: 10rem;
+    font-size: var(--font-logo-heading);
     font-family: 'Exo 2', sans-serif;
     
     padding: 1rem;
@@ -244,7 +247,7 @@ li {
 
 .landing-text h6{
     font-family: 'Exo 2', sans-serif;
-    font-size: 2rem;
+    font-size: var(--font-logo-subheading);
     font-weight: 300;
 }
 
