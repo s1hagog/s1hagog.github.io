@@ -45,7 +45,7 @@ body{
 }
 
 section{
-    padding: 6rem 0;
+    padding: 3rem 0;
 }
 
 a{
@@ -78,7 +78,7 @@ img{
 .section-heading {
     text-align: center;
     /* color: #ccc; */
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 
 .section-heading h1 {
@@ -320,6 +320,10 @@ video{
 
 /* Start About */
 
+section.about{
+    padding: 6rem 0;
+}
+
 .about .container {
     display: flex;
     align-items: center;
@@ -330,7 +334,7 @@ video{
     text-align: center;
     text-transform: uppercase;
     line-height: 0;
-    margin-bottom: 6rem;
+    margin-bottom: var(--font-about-heading);
 }
 
 .about-heading h1{
