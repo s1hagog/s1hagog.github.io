@@ -463,11 +463,29 @@ section.about{
 
 .portfolio-desc .cta {
     display: inline-block;
+    width: 100%;
     margin-top: 2.5rem;
     font-size: 1rem;
     text-transform: uppercase;
     color: #3883ff;
     transition: color 650ms;
+}
+
+.cta.text-align-start {
+    text-align: start;
+}
+
+.cta.text-align-end {
+    text-align: end;
+}
+
+.cta i {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.cta i:hover {
+    color: #bbb;
 }
 
 .portfolio-desc .cta:hover{
