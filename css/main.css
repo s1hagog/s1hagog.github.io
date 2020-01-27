@@ -400,10 +400,7 @@ section.about{
 
 .skill {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 2rem;
 }
 
 .skill h1 {
@@ -413,22 +410,21 @@ section.about{
 }
 
 .icon-container {
-    width: 10rem;
-    height: 10rem;
-    border: 3px solid #ffe838;
-    background-color: #fd57bf;
-    margin-bottom: 2rem;
-    display: flex;
-    transform: rotate(45deg);
+    width: 5rem;
+    /* border: 3px solid #ffe838;
+    background-color: #fd57bf; */
+    /* display: flex; */
 }
 
 
-.icon-container i {
+/* .icon-container i {
     color: #ffe838;
     font-size: 5rem;
     margin: auto;
     transform: rotate(-45deg);
-}
+} */
+
+
 /* End Services */
 
 /* Start Portfolio */
