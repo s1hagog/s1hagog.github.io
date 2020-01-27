@@ -9,7 +9,7 @@
     --font-logo-subheading: 1.5rem;
     --font-about-heading: 5rem;
     --font-about-subheading: 1rem;
-    --font-menu-heading: 1rem;
+    --font-menu-heading: 2rem;
     --font-section-heading: 2rem;
     --font-section-subheading: 1rem;
     --font-portfolio-main: 1.25rem;
@@ -246,7 +246,7 @@ li {
     transform: translate(-50%, -50%);
     width: 100%;
     text-align: center;
-    opacity: 0.5;
+    opacity: 1;
     z-index: 1200;
 }
 
@@ -563,6 +563,11 @@ section.about{
 
 /* Start Contact */
 
+.contact-email {
+    text-align: center;
+    font-size: 1rem;
+}
+
 .contact {
     background-color: #221e3f;
 
@@ -614,16 +619,16 @@ input[type="submit"]:hover{
 }
 
 .copyright p {
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 
 .up {
     position: absolute;
-    width: 5rem;
-    height: 5rem;
+    width: 3rem;
+    height: 3rem;
     background-color: #eee;
-    top: -2.5rem;
-    right: 5rem;
+    top: -1.5rem;
+    right: 2rem;
     border-radius: 100%;
     display: flex;
     animation: pulse 2s infinite;
@@ -632,7 +637,7 @@ input[type="submit"]:hover{
 
 .up i {
     color: #16162d;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: auto;
 }
 
