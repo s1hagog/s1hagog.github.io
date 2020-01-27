@@ -556,10 +556,12 @@ section.about{
 
 .cta.text-align-start {
     text-align: start;
+    text-align: left;
 }
 
 .cta.text-align-end {
     text-align: end;
+    text-align: right;
 }
 
 .cta i {
@@ -941,6 +943,7 @@ input[type="submit"]:hover{
 
     .cta.text-align-start, .cta.text-align-end{
         text-align: start;
+        text-align: left;
     }
 }
 
