@@ -680,24 +680,16 @@ input[type="submit"]:hover{
         background-size: cover;
     }
 
-    .landing-text h1{
-        font-size: 15rem;
-    }
-
-    .landing-text h6 {
-        font-size: 1.7rem;
-    }
-
     .nav-list{
         flex-direction: column;
     }
 
-    li {
-        margin: 2rem 0;
-    }
-
     .nav-link {
         font-size: 4.5rem;
+    }
+
+    ul.nav-list li{
+        margin: 2rem 0;
     }
 
     .about-heading h1{
@@ -726,40 +718,46 @@ input[type="submit"]:hover{
     }
 
     .timeline ul{
-        margin: 0 0 0 auto;
+        width: 60%;
     }
 
-    .timeline .date::before{
-        left: -20rem;
-    }
-
-    .timeline .date::after{
-        left: -5.9rem;
+    .timeline .date:before {
+        font-size: 1rem;
     }
 }
 
 @media screen and (max-width: 600px){
 
+    p {
+        font-size: 1.5rem;
+    }
+
     .menu-toggler{
         top: 2rem;
         right: 2rem;
-    }
-
-    .landing-text h1{
-        font-size: 8rem;
-    }
-
-    .landing-text h6{
-        font-size: 1.4rem;
+        width: 5rem;
+        height: 5rem;
     }
 
     .nav-link {
         font-size: 3.5rem;
     }
 
+    .about-heading h6{
+        font-size: 2.5rem;
+    }
+
     .about .container {
         flex-direction: column;
 
+    }
+
+    .section-heading h1::before {
+        width: 20rem;
+    }
+
+    .section-heading h6{
+        font-size: 1.5rem;
     }
 
     .profile-img{
@@ -784,12 +782,16 @@ input[type="submit"]:hover{
         order: 2;
     }
 
-    .timeline p{
-        font-size: 1.6rem;
+    .portfolio-desc h2{
+        font-size: 2.5rem;
     }
 
-    .timeline .date::before{
-        font-size: 1.4rem;
+    .portfolio-desc h6{
+        font-size: 1.75rem;
+    }
+
+    .portfolio-desc .cta{
+        font-size: 1.5rem;
     }
 
     form{
@@ -800,7 +802,9 @@ input[type="submit"]:hover{
         right: 2rem;
     }
 
-
+    .cta.text-align-start, .cta.text-align-end{
+        text-align: start;
+    }
 }
 
 /* End Media Queries */
