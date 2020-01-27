@@ -12,6 +12,8 @@
     --font-menu-heading: 1rem;
     --font-section-heading: 2rem;
     --font-section-subheading: 1rem;
+    --font-portfolio-main: 1.25rem;
+
 
     /* gradient variables */
     --background-gradient-font: linear-gradient(to top, #ffe838, #fd57bf);
@@ -446,14 +448,14 @@ section.about{
     flex: 1;
 }
 
-.portfolio-desc h1 {
-    font-size: 3rem;
+.portfolio-desc h2 {
+    font-size: 1.5rem;
     font-weight: 300;
     margin: 1rem 0;
 }
 
 .portfolio-desc h6 {
-    font-size: 1.5rem;
+    font-size: var(--font-portfolio-main);
     text-transform: uppercase;
     font-weight: 300;
     opacity: 0.3;
@@ -462,7 +464,7 @@ section.about{
 .portfolio-desc .cta {
     display: inline-block;
     margin-top: 2.5rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-transform: uppercase;
     color: #3883ff;
     transition: color 650ms;
