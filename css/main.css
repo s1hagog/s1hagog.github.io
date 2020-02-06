@@ -381,13 +381,14 @@ section.about{
     color: #4267b2;
 }
 
-.fa-twitter-square:hover{
+.fa-linkedin:hover{
     color: #38a1f3;
 }
 
-.fa-dribbble-square:hover{
-    color: #ea4c89;
+.fa-github-square:hover{
+    color: #000000;
 }
+
 /* End About */
 
 
